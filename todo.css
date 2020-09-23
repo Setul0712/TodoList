@@ -1,0 +1,36 @@
+.heading{
+    color : Red;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+body{
+    text-align : center;
+    background: #04FFFF;
+
+}
+
+.firstl{
+    color: rgb(221, 156, 15);
+    font-family: 'Areal';
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.secondl{
+    color: blueviolet;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#todo{
+    color : rgb(220, 50, 60);
+    margin-top: 20px;   
+}
+
+.list{
+    color : blueviolet;
+    margin-top : 20px;
+}

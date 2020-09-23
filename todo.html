@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>To-Do List</title>
+        <link rel="stylesheet" href="todo.css">
+        <script src="todo.js"></script>
+    </head>
+    <body>
+        <div class="heading">
+            <h1> To - Do List for User</h1>
+        </div>
+        <div class="firstl">
+            <h2> Add Items to your to-do list </h2>
+        </div>
+        <div class="secondl">
+           <i><h3> To View Items Click Items button</h3></i>
+        </div>
+        <div class="ipt">
+            <input id="userI" type="text" placeholder="Add Items here"> 
+            <button id="add" onclick = "add()">Add</button>
+        </div>
+        <div class = "items">
+            <button id="todo" onclick ="display()"> Items </button>
+        </div>
+        <div class= "list">
+            <ol id = "here" style = "display : none;">
+            </ol>
+        </div>
+    </body>
+</html>
